@@ -14,8 +14,8 @@ How to install nuTFTPServer
 Download and uncompress it.
 Enter the package-name directory where you uncompressed it, and just type the following commands:
 
-./autogen.sh
-./configure
-make
-sudo make install
+    ./autogen.sh
+    ./configure
+    make
+    sudo make install
 
