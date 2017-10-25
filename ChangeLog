@@ -1,0 +1,5 @@
+nuTftpServer ChangeLog
+Please send nuTftpServer bug reports to <antonino.calderone@gmail.com>.
+
+2005-03-01
+* Tftp Server implementation
