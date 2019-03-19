@@ -4,7 +4,7 @@
 nuTftpServer is an implementation of a TFTP Server compliant with RFC 783
 distributed under MIT License.
 
-![nutftpserver](http://www.eantcal.eu/_/rsrc/1511213053111/archive/patching-linux/tools/nutftpserver/tftpsrv.png)
+![nutftpserver](https://github.com/eantcal/nutftpserver/blob/master/tftpsrv.png)
 
 -------------------------------------------------------------------------------
 ## How to install nuTFTPServer
