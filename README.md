@@ -10,7 +10,7 @@ distributed under MIT License.
 ![nutftpserver](https://github.com/eantcal/nutftpserver/blob/master/tftpsrv.png)
 
 -------------------------------------------------------------------------------
-## How to install nuTFTPServer
+## How to build nuTFTPServer
 
 Download and uncompress it.
 Enter the package-name directory where you uncompressed it, and just type the following commands:
