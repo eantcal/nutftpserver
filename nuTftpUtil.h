@@ -12,7 +12,7 @@
 #ifndef __NU_TFTP_UTIL_H__
 #define __NU_TFTP_UTIL_H__
 
-#if defined(linux)
+#if defined(__linux__)
 #include <linux/limits.h>
 #elif defined(FreeBSD)
 #include <sys/syslimits.h>
