@@ -50,7 +50,9 @@ namespace nu
 
             critical_section( 
                     const char* name,
+#if defined(linux)
                     unsigned long flags = MU_RECURSIVE,
+#endif
                     int timeout = 0) 
             :
                 _timeout(timeout),
@@ -61,10 +63,12 @@ namespace nu
 
                 pthread_mutexattr_t attr;
                 pthread_mutexattr_init(&attr);
+#if defined(linux)
                 pthread_mutexattr_settype(&attr,
                         flags != MU_RECURSIVE ? 
                         PTHREAD_MUTEX_FAST_NP : 
                         PTHREAD_MUTEX_RECURSIVE_NP);
+#endif
 
                 unsigned long result = pthread_mutex_init(&muid_, &attr);
 

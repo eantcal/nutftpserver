@@ -3,3 +3,7 @@ Please send nuTftpServer bug reports to <antonino.calderone@gmail.com>.
 
 2005-03-01
 * Tftp Server implementation
+
+2019-10-31
+* Replace build system with CMake
+* Support building on FreeBSD/MacOS
